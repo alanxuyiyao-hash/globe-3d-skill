@@ -4,12 +4,12 @@ A reusable agent skill for building interactive Three.js globes from JSON, CSV, 
 
 保留真实地球贴图、暗色玻璃面板、大气光晕、脉冲标记与地点标签。默认空地球，不绑定新闻服务，不内置业务数据或密钥。
 
-## 安装到 Codex
+## 安装 Skill
 
-需要 Git、Python 3，以及 Node.js 22.18+（建议 24+）。
+需要 Git、Python 3，以及 Node.js 22.18+（建议 24+）。以下以 `~/.agents/skills` 为安装目录示例，使用其他工具时按其技能目录约定调整。
 
 ```bash
-git clone https://github.com/alanxuyiyao-hash/globe-3d-skill.git ~/.codex/skills/globe-3d
+git clone https://github.com/alanxuyiyao-hash/globe-3d-skill.git ~/.agents/skills/globe-3d
 ```
 
 如果该目录已经存在，请先选择另一个安装位置，避免覆盖本地修改。安装后在新会话中调用：
@@ -21,7 +21,7 @@ git clone https://github.com/alanxuyiyao-hash/globe-3d-skill.git ~/.codex/skills
 ## 生成独立项目
 
 ```bash
-python3 ~/.codex/skills/globe-3d/scripts/create_project.py ./my-globe
+python3 ~/.agents/skills/globe-3d/scripts/create_project.py ./my-globe
 cd my-globe
 npm ci
 npm run dev
