@@ -1,0 +1,6 @@
+[
+  {"id":"demo-shanghai","title":"示例地点 A（虚构）","lat":31.2304,"lng":121.4737,"location":"上海","category":"展示组 A","intensity":0.8,"description":"用于验证坐标与标记效果的虚构记录，不代表真实业务数据。"},
+  {"id":"demo-tokyo","title":"示例地点 B（虚构）","lat":35.6762,"lng":139.6503,"location":"东京","category":"展示组 B","intensity":0.6},
+  {"id":"demo-singapore","title":"示例地点 C（虚构）","lat":1.3521,"lng":103.8198,"location":"新加坡","category":"展示组 A","intensity":0.4},
+  {"id":"demo-london","title":"示例地点 D（虚构）","lat":51.5072,"lng":-0.1276,"location":"伦敦","category":"展示组 B","intensity":0.7}
+]

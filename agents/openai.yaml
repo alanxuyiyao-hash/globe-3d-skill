@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用 3D 地球"
+  short_description: "保留玻璃光晕视觉的地球模板，接入 JSON、CSV 或 API"
+  default_prompt: "使用 $globe-3d 创建独立的 3D 地球可视化项目，保留模板视觉，并接入我提供的 JSON、CSV 或 HTTP API。"
